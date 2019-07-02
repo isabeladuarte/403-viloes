@@ -1,0 +1,19 @@
+body{
+    margin:0;
+    background-color: #54575f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color:#47131f;
+    height: 50px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a{
+    color: #d9388d;
+    text-decoration: none;
+    font-size:16pt;
+}
