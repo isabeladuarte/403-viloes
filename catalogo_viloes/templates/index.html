@@ -14,7 +14,23 @@
         <a href="">Manos</a>
         <a href="">Monstros</a>
     </nav>
+    <section>
+      
+    {% for vilao in viloes %}
+    <div class="card">
 
+       
+        <div>
+            <img src="{{vilao.foto.url}}" alt="">
+        </div>
+        <h2>{{vilao.nome}}</h2>
+        <p>Habilidades: {{vilao.habilidades}}</p>
+        <p>Número de mortes: {{vilao.mortes}}</p>
+        <p>Arma: {{vilao.armas}}</p>
+        
+    </div>
+    {% endfor %}
+</section>
 
 </body>
 </html>
